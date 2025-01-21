@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter';
+}
+.searchSection{
+    display: flex;
+    gap:10px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.walletNotifi{
+    display: flex;
+    gap:2em;
+    justify-content: space-between;
+    align-content: space-between;
+    align-self: center;
+    
+}
+.wallet{
+    background-color:#00ACC1 ;
+    padding: 0.8em 3.5em;
+    display: flex;
+    gap:0.2em;
+    border-radius: 30px;
+    align-content: center;
+    justify-content: center;
+}
+.wallet img{
+    background-color: #00ACC1;
+    color: white;
+}
+.wallet h1{
+    background-color: #00ACC1;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+    color: white;
+    
+}
+.notifi img{
+    padding: 0.7em;
+    background-color:#ffffff;
+    box-shadow: 2px 1px 10px 1px rgb(0, 0, 0, 0.1);
+    border-radius: 1em;
+}
+.notifi{
+    max-width: 44px;
+    height: 44px;
+}
+.search-icon{
+    background: url('images/search-normal.png');
+    background-repeat: no-repeat;
+    background-position: 22em;
+}
+.search input{
+    width: 350px;
+    min-height: 44px;
+    border: #FFFF;
+    background-color: #FFFF;
+    padding:15px ;
+    border-radius: 8px;
+    box-shadow: 2px 1px 10px -1px rgb(0, 0, 0 , 0.1);
+}
+.locks{
+    padding: 3.5em 0em 1em;
+}
+.locks h1{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 29.05px;
+    text-align: left;
+    
+}
+.subh1{
+    display: flex;
+    gap:60px;
+    padding: 33px 0px 10px ;
+}
+.tab {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: left;
+    text-decoration: none;
+    color:  #828282;
+    background-color:#ecf6f8 ;
+    border:   #ecf6f8 ;
+    cursor: pointer;
+    
+}
+.inner{
+    display: flex;
+    gap: 10px;
+    background: var(--text-colour-2, #FFF);
+}
+.inner h2{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ffffff;
+    line-height: 160%; /* 28.8px */
+    
+}
+.tab.active {
+    color: var(--colour-1, #00ACC1);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 0.5em 0em;
+    border-bottom: 0.2em solid #13a2b5;
+}
+.wrap.active{
+    display: flex;
+}
+.wrap{
+    display: none;
+}
+.tokens{
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+}
+.token-locker{
+    flex-direction: column;
+    gap: 24px;
+    padding: 30px 93px 30px 30px ;
+    border-radius: 20px;
+    background: var(--text-colour-2, #FFF);
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.07);
+}
+.token-locker p{
+    background-color: #FFF;
+}
+.Liquidity-locker{
+    flex-direction: column;
+    gap: 24px;
+    padding: 30px 93px 30px 30px ;
+    border-radius: 20px;
+    background: var(--text-colour-2, #FFF);
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.07);
+}
+.Liquidity-locker p{
+    background-color: #FFF;
+}
+.token-address{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px 93px 30px 30px ;
+    border-radius: 20px;
+    background: var(--text-colour-2, #FFF);
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.07);
+}
+.token-address input{
+    border-radius: 8px;
+    border: 1px solid rgba(98, 106, 107, 0.23);
+    background: var(--text-colour-2, #FFF);
+    padding: 14px 24px;
+}
+.sidenav{
+    padding: 35px 30px;
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    gap:9px ;;
+    justify-content: flex-start;
+    padding-bottom: 40px;
+}
+.logo h1{
+    color: var(--text-colour, #0B0B0B);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0.5em 0em;
+}
+.dashboard{
+    display: flex;
+    width: 211px;
+    height: 46px;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 30px;
+   background: var(--colour-1, #00ACC1);
+  
+}
+.button{
+    cursor: pointer;
+}
+.button.show{
+    background-color: #13a2b5;
+    border-radius: 30px;
+    margin: 1em 0em;
+    padding: 15px;
+}
+.buttonContent{
+    display: none;
+}
+.buttonContent.show{
+    display: block;
+}
+.dashboard h1{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    background: #00ACC1;
+}
+.dashboard img{
+    background: #00ACC1;
+}
+.nav h1{
+    color: #828282;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.nav{
+    padding:20px 17px   ;
+    display: flex;
+    gap: 12px;
+   
+}
+.settings-logout{
+    padding: 328px 0px 0px 0px;
+}
+.container{
+    display: flex;
+  
+}
+.dasboardSection{
+    background-color:#ecf6f8 ;
+    width: 100%;
+    padding: 28px 40px 350px;
+}
+.token-details{
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.07);
+    display: inline-flex;
+    padding: 30px 30px 40px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 300px;
+    min-height: 350px;
+}
+.token-details h1{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.tokenContainer{
+    display: flex;
+    flex-direction: column;
+    gap:25px
+}
+.tok{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    gap:5em;
+}
+.tok h2{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.bigFlex{
+    display: flex;
+    gap:24px
+}
+.Presale{
+    padding-top: 3em;
+    flex-direction: column;
+}
+.frame1{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    gap:2em;
+}
+.frame1 h1{
+    color: var(--text-colour, #0B0B0B);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Create h2 , .load h2{
+    color: var(--text-colour, #0B0B0B);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Create , .load{
+    display: flex;
+    gap:0.5em;
+    border-radius: 30px;
+    border: 1px solid var(--colour-1, #00ACC1);
+    padding: 10px 17px;
+    justify-content: center;
+    align-items: center;
+}
+.Create{
+    background-color: #13a2b5;
+    color: white;
+}
+.Create h2{
+    color: white;
+}
+.frame2{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding: 30px ;
+    background-color: #FFF;
+    margin: 4em 0em;
+    border-radius: 20px;
+    background: var(--text-colour-2, #FFF);
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.07);
+}
+.ALL{
+    display: flex;
+
+}
+.textNicon h2{
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.textNicon{
+    padding: 10px 15px;
+    display: flex;
+    gap:14px;
+}
+.textNiconactive{
+    border-radius: 8px;
+    border: 1px solid #E1F6F8;
+    background: #E1FCFF;
+}
+.frame2 h1{
+    color: #000;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}  
+.frame2 input{
+    border-radius: 8px;
+    border: 1px solid rgba(98, 106, 107, 0.23);
+    background: var(--text-colour-2, #FFF);
+    padding: 14px 24px;
+}
+
+.create-token{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 0em;
+}
+.createNload{
+    display: flex;
+    gap:16px
+}
+.MyToken{
+    padding: 30px;
+    border-radius: 20px;
+    background: var(--text-colour-2, #FFF);
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.07);
+
+}
+.MyToken h1{
+    color: #000;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.MyToken h2{
+    color: #5F5F5F;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 1em 0em 3em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+form input{
+    border-radius: 8px;
+    border: 1px solid rgba(98, 106, 107, 0.23);
+    background: var(--text-colour-2, #FFF);
+    padding: 14px 24px;
+}
+form input::placeholder{
+    color: #9E9E9E;
+    font-size: 14px;
+    font-weight: 400;
+}
+.Advanced{
+    display: flex;
+    gap:12px;
+    padding: 30px 0px 0px;
+}
+.Advanced h2{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 1em 0em;
+}
+.checkbox {
+    padding: 3em 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Coloredbackround {
+    border-radius: 8px;
+    border: 1px solid #E1F6F8;
+    background: #E1FCFF;
+    display: flex;
+    padding: 10px 15px;
+    align-items: center;
+    gap: 10px;
+}
+
+.Coloredbackround img {
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox label {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.MyToken .Create {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 30px;
+    border: 1px solid var(--colour-1, #00ACC1);
+    background: var(--colour-1, #00ACC1);
+    display: inline-flex;
+    padding: 0px 17px;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    flex-shrink: 0;
+}
+.MyToken .Create h2{
+    color: var(--text-colour-2, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 17px;
+}
+.Bigdiv{
+    display: flex;
+    gap: 24px;
+}
+.CurrentToken .tokenContainer .tok span{
+    color: #E45A5A;
+    font-size: 16px;
+    font-weight: 500;
+}
+@media (max-width:750px){
+    .sidenav{
+        display: none;
+    }
+    .search input{
+        width: 250px;
+    }
+    .wallet{
+        padding: 0.8em 2em;
+    }
+    
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <title>Dream</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidenav">
+            <div class="logo "><img src="images/logo.png" alt=""><h1>DREAM</h1> </div>
+            <div class="dashboard button show"><img src="images/dashboard.png" alt=""><h1>Dashborard</h1></div>
+            <div class="sec nav "><img src="images/Lock (1).png" alt=""><h1>Security Overview</h1></div>
+            <div class="farm nav "><img src="images/Leaf.png" alt=""><h1>Farm</h1></div>
+            <div class="stake nav "><img src="images/staking.png" alt=""><h1>Staking</h1></div>
+            <div class="presale nav button"><img src="images/dollar.png" alt=""><h1>Presale</h1></div>
+            <div class="Create1 nav button"><img src="images/Add.png" alt=""><h1>Create Token</h1></div>
+            <div class="settings-logout">
+                <div class="settings nav "><img src="images/solar_settings-bold.png" alt=""><h1>Settings</h1></div>
+                <div class="logout nav"><img src="images/majesticons_logout.png" alt=""><h1>Logout</h1></div>
+            </div>
+        </div>
+        <div class="dasboardSection">
+            <div class="first">
+                <div class="searchSection">
+                    <div class="search">
+                        <input type="search" placeholder="Search..."  class="search-icon">
+                    </div>
+                    <div class="walletNotifi">
+                        <div class="notifi"><img src="images/notification.png" alt=""></div>
+                        <div class="wallet"><img src="images/user.png" alt=""><h1>Wallet</h1></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="buttonContent DashBoard show">
+                <div class="locks">
+                    <h1>General Lock</h1>
+                    <div class="subh1">
+                        <button class="tab active">Token Lock  </button>
+                        <button class="tab">Liquidity Lock</button>
+                    </div>
+                </div>
+                <div class="bigFlex">
+                    <div class="tokens">
+                        <div class="wrap token-locker active">
+                            <div class="inner">
+                                <img src="images/Lock.png" alt="">
+                                <h2>Tocken Locker</h2>
+                            </div>
+                            <p>Token locks are allowing all ERC20 tokens including Rebasing and Deflationary mechanisms to be supported.</p>
+                        </div>
+                        <div class="wrap Liquidity-locker">
+                            <div class="inner">
+                                <img src="images/Lock.png" alt="">
+                                <h2>Liquidity Locker</h2>
+                            </div>
+                            <p>Use the locker to prove to investors you have locked liquidity. If you are not a token developer, this section is almost definitely not for you.</p>
+                        </div>
+                        <div class="token-address">
+                            <div class="inner">
+                                <img src="images/Frame 226.png" alt="">
+                                <h2>Tocken Address</h2>
+                            </div>
+                            <input type="text" placeholder="Input token address" >
+                        </div>
+                    </div>
+                    <div class="token-details">
+                        <h1>Token Details</h1>
+                        <div class="tokenContainer">
+                            <div class="tok"><h2>Token</h2><span>37</span></div><hr>
+                            <div class="tok"><h2>Fee</h2><span>0 coins</span></div><hr>
+                            <div class="tok"><h2>PFee</h2><span>0 coins</span></div><hr>
+                            <div class="tok"><h2>Unlock Time</h2><span>14:00PM</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttonContent Presale">
+                <div class="frame1">
+                    <h1>Presale</h1> 
+                    <div class="Create"><img src="images/plus.png" alt=""><h2>Create</h2></div>
+                </div>
+                <div class="frame2">
+                    <h1>Decentralized Launchpad With Instant Listing And Liquidity Locking</h1>
+                    <input type="text" placeholder="Input Presale Address" id="">
+                    <div class="ALL">
+                        <div class="textNiconactive textNicon">
+                            <img src="images/RadioButton.png" alt="">
+                            <h2>Entire</h2>
+                        </div>
+                        <div class="textNicon">
+                            <img src="images/radio.png" alt="">
+                            <h2>Active</h2>
+                        </div>
+                        <div class="textNicon">
+                            <img src="images/radio.png" alt="">
+                            <h2>Success</h2>
+                        </div>
+                        <div class="textNicon">
+                            <img src="images/radio.png" alt="">
+                            <h2>Failed</h2>
+                        </div>
+  
+                    </div>
+                </div>
+            </div>
+            <div class="buttonContent">
+                <div class="create-token">
+                   <h1>Create Token </h1>
+
+                 <div class="createNload">
+                        <div class="Create"><img src="images/plus-white.svg" alt=""><h2>Create</h2></div>
+                        <div class="load"><h2>Load</h2><img src="images/load.svg" alt=""></div>
+                 </div>
+                </div>
+                <div class="Bigdiv">
+                    <div class="MyToken">
+                        <h1>Create Token</h1>
+                        <h2>Create your own token</h2>
+                        <form action="">
+                            <input type="text" placeholder="Name">
+                            <input type="text" placeholder="Symbol">
+                            <input type="number" placeholder="Decimal">
+                            <input type="text" placeholder="Total Supply">
+
+                        </form>
+                        <div class="Advanced">
+                            <img src="images/Switch.svg" alt="">
+                            <h2>Advanced</h2>
+                        </div>
+                        <form>
+                            <input type="text" placeholder="Create/Owner Address">
+                        </form>
+                        <div class="checkbox">
+                            <div class="Coloredbackround">
+                                <img src="images/CheckBox.png" alt="">
+                                <label for="">Can Mint</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="burn">
+                                <label for="burn">Can Burn</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="pause">
+                                <label for="pause">Can Pause</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="deflation">
+                                <label for="deflation">Deflation</label>
+                            </div>
+                            <!-- <div class="checkbox-item">
+                                <input type="checkbox" id="blacklist">
+                                <label for="blacklist">Can Blacklist</label>
+                            </div> -->
+                        </div>
+                  
+                        <div class="Create"><img src="images/plus-white.svg" alt=""><h2>Create Token</h2></div>
+ 
+                    </div>
+                    <div class="CurrentToken">
+                        <div class="token-details">
+                            <h1>Current Token Details</h1>
+                            <div class="tokenContainer">
+                                <div class="tok"><h2>Normal Fee</h2><span>NAN</span></div>
+                                <div class="tok"><h2>Mint Fee</h2><span>NAN</span></div>
+                                <div class="tok"><h2>Burn Fee</h2><span>NAN</span></div>
+                                <div class="tok"><h2>Pause Fee</h2><span>NAN</span></div>
+                                <div class="tok"><h2>Blacklist Fee</h2><span>NAN</span></div>
+                                <div class="tok"><h2>Reflection Fee</h2><span>NAN</span></div><hr>
+                                <div class="tok"><h2>Current Fee</h2><span>NAN</span></div>
+                            </div>
+                        </div>
+     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
